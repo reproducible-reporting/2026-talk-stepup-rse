@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: 2026 StepUp Talk AUTHORS (https://github.com/reproducible-reporting/2026-talk-stepup)
+# SPDX-License-Identifier: CC-BY-4.0
+
+# IDEs and development tools
+.idea
+.vscode
+.ruff_cache
+
+# Python
+__pycache__
+dist
+build
+
+# StepUp
+.stepup
+
+# Talk
+*.pdf
+*.html
+output
+
+# Software environment
+.venv
+venv
+venvs
+.envrc
+shell.sh
+uv.lock
+
+# Other
+tmp
+pkgs
