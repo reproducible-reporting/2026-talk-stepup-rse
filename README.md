@@ -16,27 +16,23 @@ taking place in Ghent (Zwijnaarde) on Tuesday 15 December 2026
 
 ## Abstract
 
-(246 / 250 words)
+(249 / 250 words)
 
-Although reproducibility is widely recognized as a cornerstone of science, our publication practices do not reflect this.
+Although reproducibility is a cornerstone of science,
+our publication practices do not reflect this.
 The main deliverable is still an article, a PDF to be read.
 At best, it comes with a data deposit and some scripts.
 Reproducibility then means that others can reach similar results and the same conclusions with sufficient effort.
 Often, however, this effort is prohibitive, or essential pieces are missing.
 Even with a complete deposit, repeating the analysis or trying a what-if scenario means redoing work already done.
 This need not be the case.
-Nearly every step, from raw data to final manuscript, now occurs on a computer,
-and can therefore be captured as a program that anyone can rerun.
+Data processing, analysis, plotting and typesetting now all happen on a computer and can therefore be captured as a program that anyone can rerun.
 
 We present StepUp, an open-source tool that lets researchers develop publications and datasets as workflows.
-A single command executes the entire process from raw data to the final product,
-such as a manuscript ready for submission or a dataset uploaded to Zenodo.
-StepUp makes no decisions for the authors;
-it records their decisions in executable form.
-Because the workflow grows along with the research,
-rather than being reconstructed afterwards,
-changing one input automatically updates every figure, table and file that depends on it.
-StepUp bridges scientific workflow tools (Snakemake, Nextflow) and software build systems (Ninja, Meson).
+A single command executes the entire process from raw data to the final product, such as a manuscript ready for submission or a dataset uploaded to Zenodo.
+StepUp makes no decisions for the authors; it records their decisions in executable form.
+Because the workflow grows along with the research, rather than being reconstructed afterwards, changing an input automatically updates every figure, table and file depending on it.
+StepUp combines the dynamic, data-driven workflows of scientific tools (Snakemake, Nextflow) with the fast incremental rebuilds of software build systems (Ninja, Meson).
 
 We will demonstrate StepUp live and discuss its use in recent publications and datasets.
 Our experience shows that reproducibility,
