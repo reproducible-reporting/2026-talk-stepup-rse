@@ -3,7 +3,7 @@ SPDX-FileCopyrightText: 2026 StepUp Talk AUTHORS (https://github.com/reproducibl
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Source Materials for the Talk "Raising the Bar: Reproducible Publication and Dataset Workflows with StepUp"
+# Source Materials for the Talk "Rerun, Don't Redo: Executable Publications and Datasets with StepUp"
 
 ![License](https://img.shields.io/github/license/reproducible-reporting/2026-talk-stepup)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/reproducible-reporting/2026-talk-stepup/main.svg)](https://results.pre-commit.ci/latest/github/reproducible-reporting/2026-talk-stepup/main)
@@ -11,35 +11,37 @@ SPDX-License-Identifier: CC-BY-4.0
 [![Supported typst release](https://img.shields.io/badge/typst-0.15.1-239dad?logo=typst&logoColor=white)](https://github.com/typst/typst/releases/tag/v0.15.1)
 [![Reproducible Reporting](https://raw.githubusercontent.com/reproducible-reporting/.github/main/profile/logo.svg)](https://github.com/reproducible-reporting)
 
+This is the source repository for a contribution to [RSE26](https://www.vibconferences.be/events/research-software-engineering-day-4th-edition)
+taking place in Ghent (Zwijnaarde) on Tuesday 15 December 2026
+
 ## Abstract
 
-(248 / 250 words)
+(246 / 250 words)
 
-Scientific publishing faces a growing authenticity crisis:
-paper mills, manipulated figures and fabricated data are becoming increasingly difficult to detect.
-Instead of engaging in an endless battle of detection, we propose raising the bar for reproducibility as the antidote.
-Typically, an article preserves only a small fraction of the underlying work.
-Even archived data and scripts rarely provide an executable path from raw data to the final manuscript.
-Publishing the entire process turns reproducibility from a noble aspiration into a concrete safeguard:
-authentic work becomes recognizable by the publication workflow it shares transparently.
+Although reproducibility is widely recognized as a cornerstone of science, our publication practices do not reflect this.
+The main deliverable is still an article, a PDF to be read.
+At best, it comes with a data deposit and some scripts.
+Reproducibility then means that others can reach similar results and the same conclusions with sufficient effort.
+Often, however, this effort is prohibitive, or essential pieces are missing.
+Even with a complete deposit, repeating the analysis or trying a what-if scenario means redoing work already done.
+This need not be the case.
+Nearly every step, from raw data to final manuscript, now occurs on a computer,
+and can therefore be captured as a program that anyone can rerun.
 
-StepUp is an open-source tool that facilitates this process.
-It treats a publication or a dataset as if it were a software build.
-Every figure, table and archive is generated from raw data and source files.
-Because the workflow grows while writing instead of being reconstructed afterwards,
-it becomes part of the shared, version-controlled record of the work.
-We demonstrate StepUp with two examples:
-(i) the slides of this talk, which will be edited and rebuilt live,
-and (ii) a dataset of simulation trajectories and notebooks,
-packaged and updated on Zenodo in a single run.
+We present StepUp, an open-source tool that lets researchers develop publications and datasets as workflows.
+A single command executes the entire process from raw data to the final product,
+such as a manuscript ready for submission or a dataset uploaded to Zenodo.
+StepUp makes no decisions for the authors;
+it records their decisions in executable form.
+Because the workflow grows along with the research,
+rather than being reconstructed afterwards,
+changing one input automatically updates every figure, table and file that depends on it.
+StepUp bridges scientific workflow tools (Snakemake, Nextflow) and software build systems (Ninja, Meson).
 
-StepUp has also had an unexpected effect.
-By incrementally developing publication workflows,
-we began tackling publications and datasets far more ambitious than we could have imagined before.
-Reproducibility, often perceived as an extra burden, turned out to be an enabler.
-For research software engineers,
-this shows how established software engineering practices can make reproducible,
-FAIR research both achievable and rewarding.
+We will demonstrate StepUp live and discuss its use in recent publications and datasets.
+Our experience shows that reproducibility,
+often perceived as an extra burden,
+can become an enabler of more ambitious research.
 
 ## Git Repository Overview
 
