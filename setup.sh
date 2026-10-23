@@ -17,7 +17,7 @@ export UV_PYTHON_INSTALL_DIR=.venv/uv-python
 .venv/bin/uv sync
 
 # Install pre-commit hook
-.venv/bin/uv pre-commit install
+.venv/bin/uv run pre-commit install
 
 # Animo is not on Typst Universe yet, so `@preview/animo:0.1.0` is resolved from a
 # repository-local package directory of a checkout of
