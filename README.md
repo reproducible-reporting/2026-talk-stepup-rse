@@ -1,18 +1,18 @@
 <!--
-SPDX-FileCopyrightText: 2026 StepUp Talk AUTHORS (https://github.com/reproducible-reporting/2026-talk-stepup)
+SPDX-FileCopyrightText: 2026 StepUp Talk AUTHORS (https://github.com/reproducible-reporting/2026-talk-stepup-rse)
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Source Materials for the Talk "Rerun, Don't Redo: Executable Publications and Datasets with StepUp"
 
-![License](https://img.shields.io/github/license/reproducible-reporting/2026-talk-stepup)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/reproducible-reporting/2026-talk-stepup/main.svg)](https://results.pre-commit.ci/latest/github/reproducible-reporting/2026-talk-stepup/main)
+![License](https://img.shields.io/github/license/reproducible-reporting/2026-talk-stepup-rse)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/reproducible-reporting/2026-talk-stepup-rse/main.svg)](https://results.pre-commit.ci/latest/github/reproducible-reporting/2026-talk-stepup-rse/main)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Supported typst release](https://img.shields.io/badge/typst-0.15.1-239dad?logo=typst&logoColor=white)](https://github.com/typst/typst/releases/tag/v0.15.1)
 [![Reproducible Reporting](https://raw.githubusercontent.com/reproducible-reporting/.github/main/profile/logo.svg)](https://github.com/reproducible-reporting)
 
 This is the source repository for a contribution to [RSE26](https://www.vibconferences.be/events/research-software-engineering-day-4th-edition)
-taking place in Ghent (Zwijnaarde) on Tuesday 15 December 2026
+taking place in Ghent (Zwijnaarde) on Tuesday 15 December 2026.
 
 ## Abstract
 

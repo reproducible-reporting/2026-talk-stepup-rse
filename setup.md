@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 StepUp Talk AUTHORS (https://github.com/reproducible-reporting/2026-talk-stepup)
+SPDX-FileCopyrightText: 2026 StepUp Talk AUTHORS (https://github.com/reproducible-reporting/2026-talk-stepup-rse)
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
@@ -20,8 +20,8 @@ It is assumed that you have typst 0.15.0 installed on your system.
 Clone the repository (or fork it and clone your fork):
 
 ```bash
-git clone git@github.com:reproducible-reporting/2026-talk-stepup.git
-cd 2026-talk-stepup
+git clone git@github.com:reproducible-reporting/2026-talk-stepup-rse.git
+cd 2026-talk-stepup-rse
 ```
 
 Create the Python environment with the `setup.sh` script:
